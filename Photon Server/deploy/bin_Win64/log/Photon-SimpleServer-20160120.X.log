@@ -1,0 +1,13 @@
+13040: 08:38:40.332 - ---
+13040: 08:38:40.332 - Service: "Photon Socket Server" starting
+13040: 08:38:40.332 - Config File: D:\Photon Server\deploy\bin_Win64\PhotonServer.config
+13040: 08:38:40.335 - Will produce at most: 10 crash dumps
+13040: 08:38:40.336 - Action: remove service
+13040: 08:38:40.339 - Service: "Photon Socket Server: SimpleServer" removed
+13040: 08:38:40.339 - MessageBox: Photon Socket Server: SimpleServer - 3.4.9.2931
+
+Service removed
+
+Instance Name = "SimpleServer"
+13040: 08:38:41.620 - Service shutting down
+13040: 08:38:41.626 - Service shut down complete
