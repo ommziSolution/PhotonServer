@@ -1,0 +1,98 @@
+2016-01-31 02:01:08,451 [1] ERROR Photon.SocketServer.ApplicationBase [(null)] - System.ArgumentException: The type 'SubServerCommon.Handlers.ErrorRequestForwardHandler' is not assignable to service 'MMO.Photon.Server.DefaultEventHandler'.
+   at Autofac.Builder.RegistrationBuilder.CreateRegistration(Guid id, RegistrationData data, IInstanceActivator activator, IEnumerable`1 services, IComponentRegistration target)
+   at Autofac.Builder.RegistrationBuilder.CreateRegistration[TLimit,TActivatorData,TSingleRegistrationStyle](IRegistrationBuilder`3 rb)
+   at Autofac.Builder.RegistrationBuilder.RegisterSingleComponent[TLimit,TActivatorData,TSingleRegistrationStyle](IComponentRegistry cr, IRegistrationBuilder`3 rb)
+   at Autofac.ContainerBuilder.Build(IComponentRegistry componentRegistry, Boolean excludeDefaultModules)
+   at Autofac.ContainerBuilder.Build(ContainerBuildOptions options)
+   at MMO.Photon.Application.PhotonApplication.Setup() in D:\Photon\TestPhotonLib\Multiplayer\MultiPlayerNew\MultiPlayerNew\MMO.Photon\Application\PhotonApplication.cs:line 64
+   at Photon.SocketServer.ApplicationBase.PhotonHostRuntimeInterfaces.IPhotonControl.OnPhotonRunning() in h:\svncontent\photon-socketserver-sdk_3.4\src\Photon.SocketServer\ApplicationBase.cs:line 1089
+2016-01-31 02:01:08,531 [1] ERROR Photon.SocketServer.ApplicationBase [(null)] - System.NullReferenceException: Object reference not set to an instance of an object.
+   at MMO.Photon.Application.PhotonApplication.OnStopRequested() in D:\Photon\TestPhotonLib\Multiplayer\MultiPlayerNew\MultiPlayerNew\MMO.Photon\Application\PhotonApplication.cs:line 102
+   at Photon.SocketServer.ApplicationBase.PhotonHostRuntimeInterfaces.IPhotonControl.OnStopRequested() in h:\svncontent\photon-socketserver-sdk_3.4\src\Photon.SocketServer\ApplicationBase.cs:line 1148
+2016-01-31 02:01:08,751 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application stop: AppId=Login
+2016-01-31 02:03:55,065 [1] DEBUG MMO.Photon.Application.PhotonApplication [(null)] - Connection to master at 127.0.0.1:4520
+2016-01-31 02:03:55,102 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application start: AppId=Login; AppPath=D:\Photon Server\deploy\ComplexServer, Type=LoginServer.LoginServer 
+2016-01-31 02:03:55,280 [14] DEBUG Photon.SocketServer.ServerToServer.TemporaryServerPeer [(null)] - OnOutboundConnectionEstablished: sending init request
+2016-01-31 02:03:55,308 [14] DEBUG Photon.SocketServer.ServerToServer.TemporaryServerPeer [(null)] - SentInitRequest: ConnID=2, ChannelId=0, result=Ok size=41 bytes
+2016-01-31 02:03:55,860 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application start: AppId=Proxy; AppPath=D:\Photon Server\deploy\ComplexServer, Type=ComplexServer.ComplexProxyServer 
+2016-01-31 02:03:55,910 [14] DEBUG ExitGames.Diagnostics.Counter.CounterBase [(null)] - Creating AverageCounter: Name=''
+2016-01-31 02:03:55,913 [14] DEBUG ExitGames.Diagnostics.Counter.CounterBase [(null)] - Creating NumericCounter: Name=''
+2016-01-31 02:03:55,914 [14] DEBUG ExitGames.Diagnostics.Counter.CounterBase [(null)] - Creating CountsPerSecondCounter: Name=''
+2016-01-31 02:03:55,915 [14] DEBUG ExitGames.Diagnostics.Counter.CounterBase [(null)] - Creating CountsPerSecondCounter: Name=''
+2016-01-31 02:03:55,916 [14] DEBUG ExitGames.Diagnostics.Counter.CounterBase [(null)] - Creating NumericCounter: Name=''
+2016-01-31 02:03:55,916 [14] DEBUG ExitGames.Diagnostics.Counter.CounterBase [(null)] - Creating CountsPerSecondCounter: Name=''
+2016-01-31 02:03:55,917 [14] DEBUG ExitGames.Diagnostics.Counter.CounterBase [(null)] - Creating NumericCounter: Name=''
+2016-01-31 02:03:55,917 [14] DEBUG ExitGames.Diagnostics.Counter.CounterBase [(null)] - Creating CountsPerSecondCounter: Name=''
+2016-01-31 02:03:55,918 [14] DEBUG ExitGames.Diagnostics.Counter.CounterBase [(null)] - Creating CountsPerSecondCounter: Name=''
+2016-01-31 02:03:55,918 [14] DEBUG ExitGames.Diagnostics.Counter.CounterBase [(null)] - Creating NumericCounter: Name=''
+2016-01-31 02:03:55,919 [14] DEBUG ExitGames.Diagnostics.Counter.CounterBase [(null)] - Creating CountsPerSecondCounter: Name=''
+2016-01-31 02:03:55,919 [14] DEBUG ExitGames.Diagnostics.Counter.CounterBase [(null)] - Creating CountsPerSecondCounter: Name=''
+2016-01-31 02:03:55,920 [14] DEBUG ExitGames.Diagnostics.Counter.CounterBase [(null)] - Creating NumericCounter: Name=''
+2016-01-31 02:03:55,928 [14] DEBUG Photon.SocketServer.ApplicationBase [(null)] - OnInit - ConnID=2, IP 127.0.0.1 on port 4520, type = TCPListener
+2016-01-31 02:03:55,946 [14] DEBUG Photon.SocketServer.Protocol [(null)] - Parsed init message for application Master, client version 3.0.5, protocol GpBinaryV2 version 1.6
+2016-01-31 02:03:55,951 [12] DEBUG MMO.Photon.Application.PhotonConnectionCollection [(null)] - Recieved init request 127.0.0.1 : 4520 - Photon.SocketServer.InitRequest
+2016-01-31 02:03:55,952 [12] DEBUG MMO.Photon.Application.PhotonPeerFactory [(null)] - Recieved init request for subserver
+2016-01-31 02:03:55,968 [12] DEBUG Photon.SocketServer.ApplicationBase [(null)] - OnInit - response sent to ConnId 2 with SendResult Ok
+2016-01-31 02:03:55,972 [14] DEBUG ExitGames.Diagnostics.Counter.CounterBase [(null)] - Creating AverageCounter: Name=''
+2016-01-31 02:03:55,974 [14] DEBUG ExitGames.Diagnostics.Counter.CounterBase [(null)] - Creating NumericCounter: Name=''
+2016-01-31 02:03:55,975 [14] DEBUG ExitGames.Diagnostics.Counter.CounterBase [(null)] - Creating CountsPerSecondCounter: Name=''
+2016-01-31 02:03:55,976 [14] DEBUG ExitGames.Diagnostics.Counter.CounterBase [(null)] - Creating CountsPerSecondCounter: Name=''
+2016-01-31 02:03:55,977 [14] DEBUG ExitGames.Diagnostics.Counter.CounterBase [(null)] - Creating NumericCounter: Name=''
+2016-01-31 02:03:55,977 [14] DEBUG ExitGames.Diagnostics.Counter.CounterBase [(null)] - Creating CountsPerSecondCounter: Name=''
+2016-01-31 02:03:55,978 [14] DEBUG ExitGames.Diagnostics.Counter.CounterBase [(null)] - Creating NumericCounter: Name=''
+2016-01-31 02:03:55,978 [14] DEBUG ExitGames.Diagnostics.Counter.CounterBase [(null)] - Creating CountsPerSecondCounter: Name=''
+2016-01-31 02:03:55,979 [14] DEBUG ExitGames.Diagnostics.Counter.CounterBase [(null)] - Creating CountsPerSecondCounter: Name=''
+2016-01-31 02:03:55,979 [14] DEBUG ExitGames.Diagnostics.Counter.CounterBase [(null)] - Creating NumericCounter: Name=''
+2016-01-31 02:03:55,979 [14] DEBUG ExitGames.Diagnostics.Counter.CounterBase [(null)] - Creating CountsPerSecondCounter: Name=''
+2016-01-31 02:03:55,981 [14] DEBUG ExitGames.Diagnostics.Counter.CounterBase [(null)] - Creating CountsPerSecondCounter: Name=''
+2016-01-31 02:03:55,982 [14] DEBUG ExitGames.Diagnostics.Counter.CounterBase [(null)] - Creating NumericCounter: Name=''
+2016-01-31 02:03:56,005 [13] DEBUG MMO.Photon.Application.PhotonPeerFactory [(null)] - Recieved init request for subserver
+2016-01-31 02:03:56,249 [13] DEBUG Photon.SocketServer.ServerToServer.ServerPeerBase [(null)] - SentOpRequest: ConnID=2, opCode=1, ChannelId=0 result=Ok size=439 bytes
+2016-01-31 02:03:56,249 [13] DEBUG MMO.Photon.Application.PhotonPeerFactory [(null)] - registering sub server
+2016-01-31 02:04:33,433 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application is stopping: AppId=Login
+2016-01-31 02:04:33,440 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application is stopping: AppId=Proxy
+2016-01-31 02:04:33,446 [14] DEBUG Photon.SocketServer.ApplicationBase [(null)] - OnDisconnect - ConnID=2
+2016-01-31 02:04:33,453 [11] DEBUG Photon.SocketServer.PeerBase [(null)] - Peer 2 changed state from Connected to Disconnected
+2016-01-31 02:04:33,456 [11] DEBUG Photon.SocketServer.PeerBase [(null)] - Peer 2 changed state from Disconnected to Disposed
+2016-01-31 02:04:33,468 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application stop: AppId=Login
+2016-01-31 02:04:33,470 [16] DEBUG Photon.SocketServer.PeerBase [(null)] - Peer 2 changed state from Connected to Disconnected
+2016-01-31 02:04:33,475 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application stop: AppId=Proxy
+2016-01-31 02:04:49,921 [15] DEBUG Photon.SocketServer.ServerToServer.TemporaryServerPeer [(null)] - OnOutboundConnectionEstablished: sending init request
+2016-01-31 02:04:49,922 [1] DEBUG MMO.Photon.Application.PhotonApplication [(null)] - Connection to master at 127.0.0.1:4520
+2016-01-31 02:04:49,958 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application start: AppId=Login; AppPath=D:\Photon Server\deploy\ComplexServer, Type=LoginServer.LoginServer 
+2016-01-31 02:04:49,982 [15] DEBUG Photon.SocketServer.ServerToServer.TemporaryServerPeer [(null)] - SentInitRequest: ConnID=2, ChannelId=0, result=Ok size=41 bytes
+2016-01-31 02:04:50,328 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application start: AppId=Proxy; AppPath=D:\Photon Server\deploy\ComplexServer, Type=ComplexServer.ComplexProxyServer 
+2016-01-31 02:04:50,376 [16] DEBUG ExitGames.Diagnostics.Counter.CounterBase [(null)] - Creating AverageCounter: Name=''
+2016-01-31 02:04:50,379 [16] DEBUG ExitGames.Diagnostics.Counter.CounterBase [(null)] - Creating NumericCounter: Name=''
+2016-01-31 02:04:50,380 [16] DEBUG ExitGames.Diagnostics.Counter.CounterBase [(null)] - Creating CountsPerSecondCounter: Name=''
+2016-01-31 02:04:50,381 [16] DEBUG ExitGames.Diagnostics.Counter.CounterBase [(null)] - Creating CountsPerSecondCounter: Name=''
+2016-01-31 02:04:50,381 [16] DEBUG ExitGames.Diagnostics.Counter.CounterBase [(null)] - Creating NumericCounter: Name=''
+2016-01-31 02:04:50,382 [16] DEBUG ExitGames.Diagnostics.Counter.CounterBase [(null)] - Creating CountsPerSecondCounter: Name=''
+2016-01-31 02:04:50,382 [16] DEBUG ExitGames.Diagnostics.Counter.CounterBase [(null)] - Creating NumericCounter: Name=''
+2016-01-31 02:04:50,383 [16] DEBUG ExitGames.Diagnostics.Counter.CounterBase [(null)] - Creating CountsPerSecondCounter: Name=''
+2016-01-31 02:04:50,383 [16] DEBUG ExitGames.Diagnostics.Counter.CounterBase [(null)] - Creating CountsPerSecondCounter: Name=''
+2016-01-31 02:04:50,384 [16] DEBUG ExitGames.Diagnostics.Counter.CounterBase [(null)] - Creating NumericCounter: Name=''
+2016-01-31 02:04:50,384 [16] DEBUG ExitGames.Diagnostics.Counter.CounterBase [(null)] - Creating CountsPerSecondCounter: Name=''
+2016-01-31 02:04:50,385 [16] DEBUG ExitGames.Diagnostics.Counter.CounterBase [(null)] - Creating CountsPerSecondCounter: Name=''
+2016-01-31 02:04:50,386 [16] DEBUG ExitGames.Diagnostics.Counter.CounterBase [(null)] - Creating NumericCounter: Name=''
+2016-01-31 02:04:50,394 [16] DEBUG Photon.SocketServer.ApplicationBase [(null)] - OnInit - ConnID=2, IP 127.0.0.1 on port 4520, type = TCPListener
+2016-01-31 02:04:50,412 [16] DEBUG Photon.SocketServer.Protocol [(null)] - Parsed init message for application Master, client version 3.0.5, protocol GpBinaryV2 version 1.6
+2016-01-31 02:04:50,417 [14] DEBUG MMO.Photon.Application.PhotonConnectionCollection [(null)] - Recieved init request 127.0.0.1 : 4520 - Photon.SocketServer.InitRequest
+2016-01-31 02:04:50,418 [14] DEBUG MMO.Photon.Application.PhotonPeerFactory [(null)] - Recieved init request for subserver
+2016-01-31 02:04:50,434 [14] DEBUG Photon.SocketServer.ApplicationBase [(null)] - OnInit - response sent to ConnId 2 with SendResult Ok
+2016-01-31 02:04:50,438 [16] DEBUG ExitGames.Diagnostics.Counter.CounterBase [(null)] - Creating AverageCounter: Name=''
+2016-01-31 02:04:50,440 [16] DEBUG ExitGames.Diagnostics.Counter.CounterBase [(null)] - Creating NumericCounter: Name=''
+2016-01-31 02:04:50,441 [16] DEBUG ExitGames.Diagnostics.Counter.CounterBase [(null)] - Creating CountsPerSecondCounter: Name=''
+2016-01-31 02:04:50,442 [16] DEBUG ExitGames.Diagnostics.Counter.CounterBase [(null)] - Creating CountsPerSecondCounter: Name=''
+2016-01-31 02:04:50,442 [16] DEBUG ExitGames.Diagnostics.Counter.CounterBase [(null)] - Creating NumericCounter: Name=''
+2016-01-31 02:04:50,442 [16] DEBUG ExitGames.Diagnostics.Counter.CounterBase [(null)] - Creating CountsPerSecondCounter: Name=''
+2016-01-31 02:04:50,443 [16] DEBUG ExitGames.Diagnostics.Counter.CounterBase [(null)] - Creating NumericCounter: Name=''
+2016-01-31 02:04:50,443 [16] DEBUG ExitGames.Diagnostics.Counter.CounterBase [(null)] - Creating CountsPerSecondCounter: Name=''
+2016-01-31 02:04:50,444 [16] DEBUG ExitGames.Diagnostics.Counter.CounterBase [(null)] - Creating CountsPerSecondCounter: Name=''
+2016-01-31 02:04:50,444 [16] DEBUG ExitGames.Diagnostics.Counter.CounterBase [(null)] - Creating NumericCounter: Name=''
+2016-01-31 02:04:50,444 [16] DEBUG ExitGames.Diagnostics.Counter.CounterBase [(null)] - Creating CountsPerSecondCounter: Name=''
+2016-01-31 02:04:50,445 [16] DEBUG ExitGames.Diagnostics.Counter.CounterBase [(null)] - Creating CountsPerSecondCounter: Name=''
+2016-01-31 02:04:50,445 [16] DEBUG ExitGames.Diagnostics.Counter.CounterBase [(null)] - Creating NumericCounter: Name=''
+2016-01-31 02:04:50,463 [12] DEBUG MMO.Photon.Application.PhotonPeerFactory [(null)] - Recieved init request for subserver
+2016-01-31 02:04:50,556 [12] DEBUG Photon.SocketServer.ServerToServer.ServerPeerBase [(null)] - SentOpRequest: ConnID=2, opCode=1, ChannelId=0 result=Ok size=439 bytes
+2016-01-31 02:04:50,557 [12] DEBUG MMO.Photon.Application.PhotonPeerFactory [(null)] - registering sub server

@@ -1,0 +1,23 @@
+﻿Uninstalling assembly 'D:\Photon Server\deploy\bin_Tools\dashboard\PhotonDashboard.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Photon Server\deploy\bin_Tools\dashboard\PhotonDashboard.exe
+   logfile = D:\Photon Server\deploy\bin_Tools\dashboard\PhotonDashboard.InstallLog
+Removing EventLog source PhontonDashboardService.
+Service PhontonDashboardService is being removed from the system...
+Service PhontonDashboardService was successfully removed from the system.
+Installing assembly 'D:\Photon Server\deploy\bin_Tools\dashboard\PhotonDashboard.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Photon Server\deploy\bin_Tools\dashboard\PhotonDashboard.exe
+   i = 
+   logfile = D:\Photon Server\deploy\bin_Tools\dashboard\PhotonDashboard.InstallLog
+Installing service PhontonDashboardService...
+Service PhontonDashboardService has been successfully installed.
+Creating EventLog source PhontonDashboardService in log Application...
+Committing assembly 'D:\Photon Server\deploy\bin_Tools\dashboard\PhotonDashboard.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Photon Server\deploy\bin_Tools\dashboard\PhotonDashboard.exe
+   i = 
+   logfile = D:\Photon Server\deploy\bin_Tools\dashboard\PhotonDashboard.InstallLog

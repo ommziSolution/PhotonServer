@@ -1,0 +1,47 @@
+2016-01-20 08:10:59,806 [4] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Connecting to master server at 127.0.0.1:4530 ..
+2016-01-20 08:11:00,938 [3] WARN  Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Connect to master failed: err=ConnectionRefused
+2016-01-20 08:11:00,953 [4] WARN  Photon.LoadBalancing.TestClient.ConnectionStates.Master - Failed to connect to master.
+2016-01-20 08:11:01,183 [4] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Connecting to master server at 127.0.0.1:4530 ..
+2016-01-20 08:11:02,183 [3] WARN  Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Connect to master failed: err=ConnectionRefused
+2016-01-20 08:11:02,183 [4] WARN  Photon.LoadBalancing.TestClient.ConnectionStates.Master - Failed to connect to master.
+2016-01-20 08:11:02,333 [4] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Connecting to master server at 127.0.0.1:4530 ..
+2016-01-20 08:11:03,328 [3] WARN  Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Connect to master failed: err=ConnectionRefused
+2016-01-20 08:11:03,328 [4] WARN  Photon.LoadBalancing.TestClient.ConnectionStates.Master - Failed to connect to master.
+2016-01-20 08:11:03,593 [4] INFO  Photon.LoadBalancing.TestClient.Program - [9172] Started game NAMAHA-PC(9172)1 with 3 clients
+2016-01-20 08:11:03,593 [4] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Connecting to master server at 127.0.0.1:4530 ..
+2016-01-20 08:11:04,603 [3] WARN  Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Connect to master failed: err=ConnectionRefused
+2016-01-20 08:11:04,603 [4] WARN  Photon.LoadBalancing.TestClient.ConnectionStates.Master - Failed to connect to master.
+2016-01-20 08:11:04,793 [4] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Connecting to master server at 127.0.0.1:4530 ..
+2016-01-20 08:11:05,793 [3] WARN  Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Connect to master failed: err=ConnectionRefused
+2016-01-20 08:11:05,793 [4] WARN  Photon.LoadBalancing.TestClient.ConnectionStates.Master - Failed to connect to master.
+2016-01-20 08:11:05,818 [4] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Connecting to master server at 127.0.0.1:4530 ..
+2016-01-20 08:11:06,818 [3] WARN  Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Connect to master failed: err=ConnectionRefused
+2016-01-20 08:11:06,818 [4] WARN  Photon.LoadBalancing.TestClient.ConnectionStates.Master - Failed to connect to master.
+2016-01-20 08:11:07,083 [4] INFO  Photon.LoadBalancing.TestClient.Program - [9172] Started game NAMAHA-PC(9172)2 with 3 clients
+2016-01-20 08:11:07,083 [4] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Connecting to master server at 127.0.0.1:4530 ..
+2016-01-20 08:11:08,083 [3] WARN  Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Connect to master failed: err=ConnectionRefused
+2016-01-20 08:11:08,083 [4] WARN  Photon.LoadBalancing.TestClient.ConnectionStates.Master - Failed to connect to master.
+2016-01-20 08:11:08,273 [4] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Connecting to master server at 127.0.0.1:4530 ..
+2016-01-20 08:11:09,273 [3] WARN  Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Connect to master failed: err=ConnectionRefused
+2016-01-20 08:11:09,273 [4] WARN  Photon.LoadBalancing.TestClient.ConnectionStates.Master - Failed to connect to master.
+2016-01-20 08:11:09,453 [4] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Connecting to master server at 127.0.0.1:4530 ..
+2016-01-20 08:11:10,453 [3] WARN  Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Connect to master failed: err=ConnectionRefused
+2016-01-20 08:11:10,453 [4] WARN  Photon.LoadBalancing.TestClient.ConnectionStates.Master - Failed to connect to master.
+2016-01-20 08:11:10,723 [4] INFO  Photon.LoadBalancing.TestClient.Program - [9172] Started game NAMAHA-PC(9172)3 with 3 clients
+2016-01-20 08:11:10,723 [4] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Connecting to master server at 127.0.0.1:4530 ..
+2016-01-20 08:11:11,723 [3] WARN  Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Connect to master failed: err=ConnectionRefused
+2016-01-20 08:11:11,723 [4] WARN  Photon.LoadBalancing.TestClient.ConnectionStates.Master - Failed to connect to master.
+2016-01-20 08:11:11,858 [4] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Connecting to master server at 127.0.0.1:4530 ..
+2016-01-20 08:11:12,858 [3] WARN  Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Connect to master failed: err=ConnectionRefused
+2016-01-20 08:11:12,858 [4] WARN  Photon.LoadBalancing.TestClient.ConnectionStates.Master - Failed to connect to master.
+2016-01-20 08:11:13,028 [4] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Connecting to master server at 127.0.0.1:4530 ..
+2016-01-20 08:11:14,028 [3] WARN  Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Connect to master failed: err=ConnectionRefused
+2016-01-20 08:11:14,028 [4] WARN  Photon.LoadBalancing.TestClient.ConnectionStates.Master - Failed to connect to master.
+2016-01-20 08:11:14,078 [4] INFO  Photon.LoadBalancing.TestClient.Program - [9172] Started game NAMAHA-PC(9172)4 with 3 clients
+2016-01-20 08:11:14,078 [4] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Connecting to master server at 127.0.0.1:4530 ..
+2016-01-20 08:11:15,078 [3] WARN  Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Connect to master failed: err=ConnectionRefused
+2016-01-20 08:11:15,078 [4] WARN  Photon.LoadBalancing.TestClient.ConnectionStates.Master - Failed to connect to master.
+2016-01-20 08:11:15,323 [4] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Connecting to master server at 127.0.0.1:4530 ..
+2016-01-20 08:11:16,323 [3] WARN  Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Connect to master failed: err=ConnectionRefused
+2016-01-20 08:11:16,323 [4] WARN  Photon.LoadBalancing.TestClient.ConnectionStates.Master - Failed to connect to master.
+2016-01-20 08:11:16,413 [4] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Connecting to master server at 127.0.0.1:4530 ..

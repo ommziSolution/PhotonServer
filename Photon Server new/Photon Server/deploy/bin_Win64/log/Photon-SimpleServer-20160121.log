@@ -1,0 +1,120 @@
+2900: 10:05:54.868 - ---
+2900: 10:05:54.962 - Service: "Photon Socket Server" starting
+2900: 10:05:54.962 - Config File: D:\Photon Server\deploy\bin_Win64\PhotonServer.config
+2900: 10:05:55.009 - Will produce at most: 10 crash dumps
+2900: 10:05:55.009 - Action: run as service
+3248: 10:05:55.289 - Server Starting...
+3248: 10:05:55.508 -    Tick count: 101587 (wraps in: 49.7091 days)
+3248: 10:05:55.508 - Tick count 64: 101806
+3248: 10:05:55.508 - Photon Version: 3.4.9.2931
+3248: 10:05:55.508 - PID: 2852
+3248: 10:05:55.757 - Current directory is: C:\Windows\system32
+3248: 10:05:55.757 - Changing current directory to: D:\Photon Server\deploy\bin_Win64
+3248: 10:05:55.757 - Config File: D:\Photon Server\deploy\bin_Win64\PhotonServer.config
+3248: 10:05:55.757 - Will NOT log unimportant exceptions
+3248: 10:05:59.618 - Not using performance counters as they are not currently installed. Run the service with /InstallCounters to install them.
+3248: 10:06:00.211 - Shutdown timeout enabled: 30000ms
+3248: 10:06:00.726 - Starting I/O thread pool with 2 threads
+3248: 10:06:00.804 - Using Standard allocator
+3248: 10:06:00.804 - Max message size: 512000
+3248: 10:06:01.305 - Starting business logic thread pool with the following settings
+3248: 10:06:01.305 - InitialThreads: 4 threads
+3248: 10:06:01.305 - MinThreads: 4 threads
+3248: 10:06:01.305 - Thread pool is fixed size
+3248: 10:06:01.305 - Starting ENet thread pool with the following settings
+3248: 10:06:01.305 - InitialThreads: 2 threads
+3248: 10:06:01.305 - MinThreads: 2 threads
+3248: 10:06:01.305 - Thread pool is fixed size
+3248: 10:06:01.305 - OnlyDispatchTimers: False
+3248: 10:06:01.745 - S2S: flow control: Max pending writes: 50
+3248: 10:06:01.745 - S2S: flow control: Max queued buffers: 200
+3248: 10:06:01.745 - S2S: flow control: Max pending writes MUX: 500
+3248: 10:06:01.745 - S2S: flow control: Max queued buffers MUX: 2000
+3248: 10:06:01.745 - S2S: MaxInboundMessageSize: 512000
+3248: 10:06:01.745 - S2S: MaxOutboundMessageSize: 512000
+3248: 10:06:01.745 - S2S: No inactivity timeout
+3248: 10:06:03.658 - WebSocket S2S: MaxInboundMessageSize: 512000
+3248: 10:06:03.658 - WebSocket S2S: MaxOutboundMessageSize: 512000
+3248: 10:06:03.658 - WebSocket S2S: No inactivity timeout
+3248: 10:06:03.861 - Max Reliable Data In Transit (awaiting ACKs) per peer : 51200 bytes
+3248: 10:06:03.861 - Per peer bandwidth limit
+3248: 10:06:03.861 - Transmit Rate Limit: 256 KB/Sec
+3248: 10:06:03.861 - Limit period: 200ms
+3248: 10:06:03.861 - Limit per period: 52428 bytes
+3248: 10:06:03.861 - Max queued data for transmission per peer: 512000 bytes
+3248: 10:06:03.861 - Minimum retransmit timeout: 200
+3248: 10:06:03.861 - No Maximum retransmit timeout
+3248: 10:06:03.861 - Minimum ENet timeout: 5000ms
+3248: 10:06:03.861 - Maximum ENet timeout: 30000ms
+3248: 10:06:03.861 - Max Inbound Reliable Data Queued (awaiting resends of earlier sequence numbers) per peer : 163840 bytes
+3248: 10:06:03.861 - No RTT ACK adjustment timeout
+3248: 10:06:03.861 - Outbound ENet: MaxInboundMessageSize: 512000
+3248: 10:06:03.861 - Outbound ENet: MaxOutboundMessageSize: 512000
+3248: 10:06:06.494 - GetRuntime - About to load CLR - versions available:
+3248: 10:06:06.494 - v2.0.50727
+3248: 10:06:06.494 - v4.0.30319
+3248: 10:06:06.494 - Configuration requests: "v2.0.50727"
+3248: 10:06:06.494 - About to load version: "v2.0.50727"
+3248: 10:06:06.884 - About to load runtime: PhotonHostRuntime.PhotonDomainManager from PhotonHostRuntime, Culture=neutral, PublicKeyToken=02C301B61B060C4D
+3248: 10:06:06.884 - CLRBaseDirectory set to "D:\Photon Server\deploy"
+3248: 10:06:06.884 - Optimising event broadcast for 20 or more peers
+3248: 10:06:07.401 - Start: About to load CLR - versions available:
+3248: 10:06:07.401 - v2.0.50727
+3248: 10:06:07.401 - v4.0.30319
+3248: 10:06:07.401 - No preference in configuration file, will load latest.
+3248: 10:06:07.401 - About to load version: "v4.0.30319"
+3248: 10:06:10.726 - Loaded version: "v4.0.30319"
+3248: 10:07:03.012 - Photon host runtime loaded
+3248: 10:07:37.427 - LICENSE: No license file was found. Starting with Bootstrap License.
+3248: 10:07:37.427 - License is valid.
+3248: 10:07:37.428 - Licensed for 20 concurrent connections.
+3248: 10:07:37.428 - ENet: Max Reliable Data In Transit (awaiting ACKs) per peer : 51200 bytes
+3248: 10:07:37.428 - ENet: Per peer bandwidth limit
+3248: 10:07:37.428 - ENet: Transmit Rate Limit: 256 KB/Sec
+3248: 10:07:37.428 - ENet: Limit period: 200ms
+3248: 10:07:37.428 - ENet: Limit per period: 52428 bytes
+3248: 10:07:37.428 - ENet: Max queued data for transmission per peer: 512000 bytes
+3248: 10:07:37.428 - ENet: Minimum retransmit timeout: 200
+3248: 10:07:37.428 - No Maximum retransmit timeout
+3248: 10:07:37.428 - ENet: Minimum timeout: 5000ms
+3248: 10:07:37.428 - ENet: Maximum timeout: 30000ms
+3248: 10:07:37.428 - ENet: Max Inbound Reliable Data Queued (awaiting resends of earlier sequence numbers) per peer : 163840 bytes
+3248: 10:07:37.428 - No RTT ACK adjustment timeout
+3248: 10:07:37.429 - About to load application: SimpleServer from SimpleServer
+3248: 10:07:37.429 - Auto restart is enabled for application, existing connections will be terminated during restart
+3248: 10:07:37.429 - Application will restart 1000ms after the last change detected
+3248: 10:07:37.429 - Application will restart if files matching the following are changed: "dll;config"
+3248: 10:07:37.429 - Application will NOT restart if files matching the following are changed: "log4net.config"
+3248: 10:07:42.019 - Taking reference on default app domain
+3248: 10:07:45.243 - Application: "SimpleServer" started in app domain: 2
+3248: 10:07:45.243 - About to load application: CounterPublisher from CounterPublisher
+3248: 10:07:45.243 - Auto restart is enabled for application, existing connections will be terminated during restart
+3248: 10:07:45.243 - Application will restart 1000ms after the last change detected
+3248: 10:07:45.243 - Application will restart if files matching the following are changed: "dll;config"
+3248: 10:07:45.243 - Application will NOT restart if files matching the following are changed: "log4net.config"
+3248: 10:07:47.141 - Taking reference on default app domain
+3248: 10:07:49.863 - Application: "CounterPublisher" started in app domain: 3
+3248: 10:07:49.963 - Adding TCP listener on: 0.0.0.0: 4530 with a listen backlog of: 150
+3248: 10:07:49.963 - TCP inactivity timeout: 10000ms
+3248: 10:07:49.963 - TCP disconnect timeout: 120000ms
+3248: 10:07:49.963 - MaxInboundMessageSize: 512000
+3248: 10:07:49.963 - MaxOutboundMessageSize: 512000
+3248: 10:07:50.003 - Serving policy file requests from: "D:\Photon Server\deploy\Policy\assets\socket-policy.xml"
+3248: 10:07:51.646 - MaxInboundMessageSize: 512000
+3248: 10:07:51.646 - MaxOutboundMessageSize: 512000
+3248: 10:07:51.646 - UDP address specified as: "0.0.0.0" adding listener to each available IPv4 address
+3248: 10:07:51.646 - Adding UDP listener on: 192.168.0.14: 5055 with a listen backlog of: 500
+3248: 10:07:51.646 - Adding UDP listener on: 127.0.0.1: 5055 with a listen backlog of: 500
+3248: 10:07:51.646 - Adding WebSocket TCP listener on: 0.0.0.0: 9090 with a listen backlog of: 150
+3248: 10:07:51.646 - Nagle disabled
+3248: 10:07:51.646 - TCP inactivity timeout: 10000ms
+3248: 10:07:51.646 - MaxInboundMessageSize: 512000
+3248: 10:07:51.646 - MaxOutboundMessageSize: 512000
+3248: 10:07:51.646 - Forcing all applications ids to: "SimpleServer"
+3248: 10:07:51.646 - Will accept ANY sub-protocols from the client
+3248: 10:07:51.646 - No automatic WebSocket ping
+3248: 10:07:51.771 - Adding Policy File listener on: 0.0.0.0: 843 with a listen backlog of: 150 and serving Policy File: "D:\Photon Server\deploy\Policy\assets\socket-policy.xml"
+3248: 10:07:51.771 - TCP inactivity timeout: 10000ms
+3248: 10:07:51.771 - Adding Policy File listener on: 0.0.0.0: 943 with a listen backlog of: 150 and serving Policy File: "D:\Photon Server\deploy\Policy\assets\socket-policy-silverlight.xml"
+3248: 10:07:51.771 - TCP inactivity timeout: 10000ms
+3248: 10:07:52.121 - Service is running...

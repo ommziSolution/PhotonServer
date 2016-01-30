@@ -1,0 +1,16 @@
+8152: 20:20:27.871 - ---
+8152: 20:20:27.871 - Service: "Photon Socket Server" starting
+8152: 20:20:27.871 - Config File: D:\Photon Server\deploy\bin_Win64\PhotonServer.config
+8152: 20:20:27.874 - Will produce at most: 10 crash dumps
+8152: 20:20:27.874 - Action: install counters
+8152: 20:20:28.631 - MessageBox: Photon Socket Server - 3.4.9.2931
+
+Photon Socket Server - Performance counters installed
+8152: 20:20:30.191 - Service shutting down
+8152: 20:20:30.205 - Service shut down complete
+9976: 20:42:09.136 - ---
+9976: 20:42:09.136 - Service: "Photon Socket Server" starting
+9976: 20:42:09.136 - Config File: D:\Photon Server\deploy\bin_Win64\PhotonServer.config
+9976: 20:42:09.137 - Will produce at most: 10 crash dumps
+9976: 20:42:09.137 - Service shutting down
+9976: 20:42:09.138 - Service shut down complete

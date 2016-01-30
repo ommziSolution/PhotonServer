@@ -1,0 +1,330 @@
+2016-01-22 20:19:23,772 [4] INFO  Photon.Dashboard.PhontonDashboardService [(null)] - Service is starting
+2016-01-22 20:19:24,351 [4] INFO  ExitGames.Counter.Service.Graphs.GraphTemplateFactory [(null)] - Initalizing graph templates from D:\Photon Server\deploy\bin_Tools\dashboard\GraphTemplates.xml
+2016-01-22 20:19:24,732 [4] INFO  Photon.Dashboard.PhontonDashboardService [(null)] - Created web server listening on 127.0.0.1:8088
+2016-01-22 20:19:24,734 [4] INFO  Photon.Dashboard.PhontonDashboardService [(null)] - Service started successfully.
+2016-01-22 20:19:28,848 [6] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:19:28,912 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:19:38,751 [6] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:19:38,752 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:19:48,752 [6] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:19:48,753 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:19:58,766 [6] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:19:58,769 [4] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:20:08,771 [6] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:20:08,782 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:20:18,780 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:20:18,783 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:20:28,783 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:20:28,785 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:20:38,795 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:20:38,798 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:20:44,495 [7] DEBUG Photon.Dashboard.Graphing.PhotonCounterController [(null)] - Rrd command failed: msg=ERROR: opening 'SocketServer.BytesInPerSecond.rrd': No such file or directory
+, command=graph "C:\Windows\TEMP\tmpC0C5.tmp" -s -1h -e now -w 400 -h 120 -l 0 -u 10 -D -c BACK#ffffff00 --border 0 --full-size-mode         DEF:ds=SocketServer.BytesInPerSecond.rrd:GAUGE:AVERAGE CDEF:ds2=ds,1,* AREA:ds2#336699:""
+2016-01-22 20:20:44,545 [9] DEBUG Photon.Dashboard.Graphing.PhotonCounterController [(null)] - Rrd command failed: msg=ERROR: opening 'SocketServer.BytesOutPerSecond.rrd': No such file or directory
+, command=graph "C:\Windows\TEMP\tmpCB51.tmp" -s -1h -e now -w 400 -h 120 -l 0 -u 10 -D -c BACK#ffffff00 --border 0 --full-size-mode         DEF:ds=SocketServer.BytesOutPerSecond.rrd:GAUGE:AVERAGE CDEF:ds2=ds,1,* AREA:ds2#336699:""
+2016-01-22 20:20:44,645 [7] DEBUG Photon.Dashboard.Graphing.PhotonCounterController [(null)] - Rrd command failed: msg=ERROR: opening 'SocketServer.MessagesInPerSecond.rrd': No such file or directory
+, command=graph "C:\Windows\TEMP\tmpCB81.tmp" -s -1h -e now -w 400 -h 120 -l 0 -u 10 -D -c BACK#ffffff00 --border 0 --full-size-mode         DEF:ds=SocketServer.MessagesInPerSecond.rrd:GAUGE:AVERAGE CDEF:ds2=ds,1,* AREA:ds2#336699:""
+2016-01-22 20:20:44,716 [9] DEBUG Photon.Dashboard.Graphing.PhotonCounterController [(null)] - Rrd command failed: msg=ERROR: opening 'SocketServer.MessagesOutPerSecond.rrd': No such file or directory
+, command=graph "C:\Windows\TEMP\tmpCBEF.tmp" -s -1h -e now -w 400 -h 120 -l 0 -u 10 -D -c BACK#ffffff00 --border 0 --full-size-mode         DEF:ds=SocketServer.MessagesOutPerSecond.rrd:GAUGE:AVERAGE CDEF:ds2=ds,1,* AREA:ds2#336699:""
+2016-01-22 20:20:45,004 [7] DEBUG Photon.Dashboard.Graphing.PhotonCounterController [(null)] - Rrd command failed: msg=ERROR: opening 'SocketServer.CommandsResentPerSecond.rrd': No such file or directory
+, command=graph "C:\Windows\TEMP\tmpCD1A.tmp" -s -1h -e now -w 400 -h 120 -l 0 -u 10 -D -c BACK#ffffff00 --border 0 --full-size-mode         DEF:ds=SocketServer.CommandsResentPerSecond.rrd:GAUGE:AVERAGE CDEF:ds2=ds,1,* AREA:ds2#336699:""
+2016-01-22 20:20:45,070 [9] DEBUG Photon.Dashboard.Graphing.PhotonCounterController [(null)] - Rrd command failed: msg=ERROR: opening 'SocketServer.Peers.rrd': No such file or directory
+, command=graph "C:\Windows\TEMP\tmpCD5A.tmp" -s -1h -e now -w 400 -h 120 -l 0 -u 10 -D -c BACK#ffffff00 --border 0 --full-size-mode         DEF:ds=SocketServer.Peers.rrd:GAUGE:AVERAGE CDEF:ds2=ds,1,* AREA:ds2#336699:""
+2016-01-22 20:20:45,376 [9] DEBUG Photon.Dashboard.Graphing.PhotonCounterController [(null)] - Rrd command failed: msg=ERROR: opening 'SocketServer.BytesInPerSecond.rrd': No such file or directory
+, command=graph "C:\Windows\TEMP\tmpCE76.tmp" -s -1h -e now -w 400 -h 120 -l 0 -u 10 -D -c BACK#ffffff00 --border 0 --full-size-mode         DEF:ds=SocketServer.BytesInPerSecond.rrd:GAUGE:AVERAGE CDEF:ds2=ds,1,* AREA:ds2#336699:""
+2016-01-22 20:20:45,425 [7] DEBUG Photon.Dashboard.Graphing.PhotonCounterController [(null)] - Rrd command failed: msg=ERROR: opening 'SocketServer.MessagesInPerSecond.rrd': No such file or directory
+, command=graph "C:\Windows\TEMP\tmpCEC5.tmp" -s -1h -e now -w 400 -h 120 -l 0 -u 10 -D -c BACK#ffffff00 --border 0 --full-size-mode         DEF:ds=SocketServer.MessagesInPerSecond.rrd:GAUGE:AVERAGE CDEF:ds2=ds,1,* AREA:ds2#336699:""
+2016-01-22 20:20:45,472 [9] DEBUG Photon.Dashboard.Graphing.PhotonCounterController [(null)] - Rrd command failed: msg=ERROR: opening 'SocketServer.BytesOutPerSecond.rrd': No such file or directory
+, command=graph "C:\Windows\TEMP\tmpCF04.tmp" -s -1h -e now -w 400 -h 120 -l 0 -u 10 -D -c BACK#ffffff00 --border 0 --full-size-mode         DEF:ds=SocketServer.BytesOutPerSecond.rrd:GAUGE:AVERAGE CDEF:ds2=ds,1,* AREA:ds2#336699:""
+2016-01-22 20:20:45,516 [7] DEBUG Photon.Dashboard.Graphing.PhotonCounterController [(null)] - Rrd command failed: msg=ERROR: opening 'SocketServer.MessagesOutPerSecond.rrd': No such file or directory
+, command=graph "C:\Windows\TEMP\tmpCF34.tmp" -s -1h -e now -w 400 -h 120 -l 0 -u 10 -D -c BACK#ffffff00 --border 0 --full-size-mode         DEF:ds=SocketServer.MessagesOutPerSecond.rrd:GAUGE:AVERAGE CDEF:ds2=ds,1,* AREA:ds2#336699:""
+2016-01-22 20:20:45,560 [9] DEBUG Photon.Dashboard.Graphing.PhotonCounterController [(null)] - Rrd command failed: msg=ERROR: opening 'SocketServer.CommandsResentPerSecond.rrd': No such file or directory
+, command=graph "C:\Windows\TEMP\tmpCF54.tmp" -s -1h -e now -w 400 -h 120 -l 0 -u 10 -D -c BACK#ffffff00 --border 0 --full-size-mode         DEF:ds=SocketServer.CommandsResentPerSecond.rrd:GAUGE:AVERAGE CDEF:ds2=ds,1,* AREA:ds2#336699:""
+2016-01-22 20:20:45,609 [7] DEBUG Photon.Dashboard.Graphing.PhotonCounterController [(null)] - Rrd command failed: msg=ERROR: opening 'SocketServer.Peers.rrd': No such file or directory
+, command=graph "C:\Windows\TEMP\tmpCF84.tmp" -s -1h -e now -w 400 -h 120 -l 0 -u 10 -D -c BACK#ffffff00 --border 0 --full-size-mode         DEF:ds=SocketServer.Peers.rrd:GAUGE:AVERAGE CDEF:ds2=ds,1,* AREA:ds2#336699:""
+2016-01-22 20:20:48,799 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:20:48,802 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:20:52,105 [9] DEBUG Photon.Dashboard.Graphing.PhotonCounterController [(null)] - Rrd command failed: msg=ERROR: opening 'SocketServer.BytesInPerSecond.rrd': No such file or directory
+, command=graph "C:\Windows\TEMP\tmpE8EF.tmp" -s -1h -e now -w 400 -h 120 -l 0 -u 10 -D -c BACK#ffffff00 --border 0 --full-size-mode         DEF:ds=SocketServer.BytesInPerSecond.rrd:GAUGE:AVERAGE CDEF:ds2=ds,1,* AREA:ds2#336699:""
+2016-01-22 20:20:52,147 [7] DEBUG Photon.Dashboard.Graphing.PhotonCounterController [(null)] - Rrd command failed: msg=ERROR: opening 'SocketServer.BytesOutPerSecond.rrd': No such file or directory
+, command=graph "C:\Windows\TEMP\tmpE91F.tmp" -s -1h -e now -w 400 -h 120 -l 0 -u 10 -D -c BACK#ffffff00 --border 0 --full-size-mode         DEF:ds=SocketServer.BytesOutPerSecond.rrd:GAUGE:AVERAGE CDEF:ds2=ds,1,* AREA:ds2#336699:""
+2016-01-22 20:20:52,188 [9] DEBUG Photon.Dashboard.Graphing.PhotonCounterController [(null)] - Rrd command failed: msg=ERROR: opening 'SocketServer.MessagesInPerSecond.rrd': No such file or directory
+, command=graph "C:\Windows\TEMP\tmpE93F.tmp" -s -1h -e now -w 400 -h 120 -l 0 -u 10 -D -c BACK#ffffff00 --border 0 --full-size-mode         DEF:ds=SocketServer.MessagesInPerSecond.rrd:GAUGE:AVERAGE CDEF:ds2=ds,1,* AREA:ds2#336699:""
+2016-01-22 20:20:52,298 [9] DEBUG Photon.Dashboard.Graphing.PhotonCounterController [(null)] - Rrd command failed: msg=ERROR: opening 'SocketServer.MessagesOutPerSecond.rrd': No such file or directory
+, command=graph "C:\Windows\TEMP\tmpE9AE.tmp" -s -1h -e now -w 400 -h 120 -l 0 -u 10 -D -c BACK#ffffff00 --border 0 --full-size-mode         DEF:ds=SocketServer.MessagesOutPerSecond.rrd:GAUGE:AVERAGE CDEF:ds2=ds,1,* AREA:ds2#336699:""
+2016-01-22 20:20:52,340 [7] DEBUG Photon.Dashboard.Graphing.PhotonCounterController [(null)] - Rrd command failed: msg=ERROR: opening 'SocketServer.CommandsResentPerSecond.rrd': No such file or directory
+, command=graph "C:\Windows\TEMP\tmpE9DE.tmp" -s -1h -e now -w 400 -h 120 -l 0 -u 10 -D -c BACK#ffffff00 --border 0 --full-size-mode         DEF:ds=SocketServer.CommandsResentPerSecond.rrd:GAUGE:AVERAGE CDEF:ds2=ds,1,* AREA:ds2#336699:""
+2016-01-22 20:20:52,385 [9] DEBUG Photon.Dashboard.Graphing.PhotonCounterController [(null)] - Rrd command failed: msg=ERROR: opening 'SocketServer.Peers.rrd': No such file or directory
+, command=graph "C:\Windows\TEMP\tmpEA0E.tmp" -s -1h -e now -w 400 -h 120 -l 0 -u 10 -D -c BACK#ffffff00 --border 0 --full-size-mode         DEF:ds=SocketServer.Peers.rrd:GAUGE:AVERAGE CDEF:ds2=ds,1,* AREA:ds2#336699:""
+2016-01-22 20:20:58,811 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:20:58,813 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:21:02,115 [9] DEBUG Photon.Dashboard.Graphing.PhotonCounterController [(null)] - Rrd command failed: msg=ERROR: opening 'SocketServer.BytesOutPerSecond.rrd': No such file or directory
+, command=graph "C:\Windows\TEMP\tmp1016.tmp" -s -1h -e now -w 400 -h 120 -l 0 -u 10 -D -c BACK#ffffff00 --border 0 --full-size-mode         DEF:ds=SocketServer.BytesOutPerSecond.rrd:GAUGE:AVERAGE CDEF:ds2=ds,1,* AREA:ds2#336699:""
+2016-01-22 20:21:02,158 [6] DEBUG Photon.Dashboard.Graphing.PhotonCounterController [(null)] - Rrd command failed: msg=ERROR: opening 'SocketServer.MessagesOutPerSecond.rrd': No such file or directory
+, command=graph "C:\Windows\TEMP\tmp1036.tmp" -s -1h -e now -w 400 -h 120 -l 0 -u 10 -D -c BACK#ffffff00 --border 0 --full-size-mode         DEF:ds=SocketServer.MessagesOutPerSecond.rrd:GAUGE:AVERAGE CDEF:ds2=ds,1,* AREA:ds2#336699:""
+2016-01-22 20:21:02,268 [6] DEBUG Photon.Dashboard.Graphing.PhotonCounterController [(null)] - Rrd command failed: msg=ERROR: opening 'SocketServer.CommandsResentPerSecond.rrd': No such file or directory
+, command=graph "C:\Windows\TEMP\tmp10B5.tmp" -s -1h -e now -w 400 -h 120 -l 0 -u 10 -D -c BACK#ffffff00 --border 0 --full-size-mode         DEF:ds=SocketServer.CommandsResentPerSecond.rrd:GAUGE:AVERAGE CDEF:ds2=ds,1,* AREA:ds2#336699:""
+2016-01-22 20:21:02,315 [9] DEBUG Photon.Dashboard.Graphing.PhotonCounterController [(null)] - Rrd command failed: msg=ERROR: opening 'SocketServer.BytesInPerSecond.rrd': No such file or directory
+, command=graph "C:\Windows\TEMP\tmp10D5.tmp" -s -1h -e now -w 400 -h 120 -l 0 -u 10 -D -c BACK#ffffff00 --border 0 --full-size-mode         DEF:ds=SocketServer.BytesInPerSecond.rrd:GAUGE:AVERAGE CDEF:ds2=ds,1,* AREA:ds2#336699:""
+2016-01-22 20:21:02,367 [6] DEBUG Photon.Dashboard.Graphing.PhotonCounterController [(null)] - Rrd command failed: msg=ERROR: opening 'SocketServer.MessagesInPerSecond.rrd': No such file or directory
+, command=graph "C:\Windows\TEMP\tmp1105.tmp" -s -1h -e now -w 400 -h 120 -l 0 -u 10 -D -c BACK#ffffff00 --border 0 --full-size-mode         DEF:ds=SocketServer.MessagesInPerSecond.rrd:GAUGE:AVERAGE CDEF:ds2=ds,1,* AREA:ds2#336699:""
+2016-01-22 20:21:02,409 [9] DEBUG Photon.Dashboard.Graphing.PhotonCounterController [(null)] - Rrd command failed: msg=ERROR: opening 'SocketServer.Peers.rrd': No such file or directory
+, command=graph "C:\Windows\TEMP\tmp1145.tmp" -s -1h -e now -w 400 -h 120 -l 0 -u 10 -D -c BACK#ffffff00 --border 0 --full-size-mode         DEF:ds=SocketServer.Peers.rrd:GAUGE:AVERAGE CDEF:ds2=ds,1,* AREA:ds2#336699:""
+2016-01-22 20:21:08,826 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:21:08,832 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:21:18,827 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:21:18,829 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:21:28,840 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:21:28,843 [4] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:21:38,841 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:21:38,843 [4] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:21:48,855 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:21:48,856 [4] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:21:58,860 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:21:58,863 [4] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:22:08,871 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:22:08,873 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:22:18,875 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:22:18,878 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:22:28,886 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:22:28,887 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:22:38,902 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:22:38,904 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:22:48,903 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:22:48,906 [4] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:22:58,915 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:22:58,916 [4] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:23:08,919 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:23:08,922 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:23:18,930 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:23:18,933 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:23:28,932 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:23:28,934 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:23:38,946 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:23:38,949 [4] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:23:48,960 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:23:48,963 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:23:58,963 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:23:58,965 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:24:08,975 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:24:08,978 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:24:18,978 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:24:18,981 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:24:28,990 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:24:28,991 [4] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:24:38,990 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:24:38,993 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:24:49,008 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:24:49,010 [4] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:24:59,012 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:24:59,015 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:25:09,023 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:25:09,026 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:25:19,035 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:25:19,038 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:25:29,036 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:25:29,039 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:25:39,050 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:25:39,053 [4] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:25:49,051 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:25:49,054 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:25:59,066 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:25:59,067 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:26:09,066 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:26:09,068 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:26:19,081 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:26:19,084 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:26:29,081 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:26:29,084 [4] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:26:39,095 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:26:39,096 [4] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:26:49,110 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:26:49,112 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:26:59,115 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:26:59,118 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:27:09,126 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:27:09,129 [4] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:27:19,131 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:27:19,134 [4] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:27:29,141 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:27:29,144 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:27:39,144 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:27:39,147 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:27:49,155 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:27:49,158 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:27:59,170 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:27:59,172 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:28:09,173 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:28:09,176 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:28:19,186 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:28:19,189 [4] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:28:29,191 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:28:29,194 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:28:39,201 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:28:39,204 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:28:49,201 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:28:49,204 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:28:59,215 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:28:59,218 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:29:09,220 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:29:09,223 [4] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:29:19,239 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:29:19,240 [4] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:29:29,246 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:29:29,249 [4] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:29:39,247 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:29:39,250 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:29:49,261 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:29:49,264 [4] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:29:59,262 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:29:59,265 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:30:09,276 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:30:09,279 [4] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:30:19,275 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:30:19,278 [4] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:30:29,291 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:30:29,293 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:30:39,294 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:30:39,297 [4] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:30:49,305 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:30:49,308 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:30:59,321 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:30:59,324 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:31:09,322 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:31:09,325 [4] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:31:19,336 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:31:19,339 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:31:29,342 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:31:29,344 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:31:39,350 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:31:39,351 [4] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:31:49,351 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:31:49,354 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:31:59,365 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:31:59,368 [4] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:32:09,381 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:32:09,384 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:32:19,380 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:32:19,382 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:32:29,396 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:32:29,399 [4] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:32:39,396 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:32:39,399 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:32:49,410 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:32:49,413 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:32:59,411 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:32:59,414 [4] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:33:09,425 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:33:09,428 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:33:19,426 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:33:19,429 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:33:29,440 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:33:29,442 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:33:39,456 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:33:39,458 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:33:49,457 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:33:49,459 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:33:59,470 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:33:59,473 [4] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:34:09,472 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:34:09,475 [4] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:34:19,485 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:34:19,487 [4] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:34:29,488 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:34:29,489 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:34:39,501 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:34:39,503 [4] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:34:49,504 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:34:49,504 [4] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:34:59,515 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:34:59,516 [4] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:35:09,530 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:35:09,531 [4] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:35:19,539 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:35:19,541 [4] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:35:29,545 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:35:29,551 [4] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:35:39,548 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:35:39,551 [4] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:35:49,560 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:35:49,562 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:35:59,569 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:35:59,579 [4] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:36:09,575 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:36:09,577 [4] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:36:19,575 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:36:19,578 [4] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:36:29,591 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:36:29,594 [4] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:36:39,605 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:36:39,608 [4] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:36:49,609 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:36:49,612 [4] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:36:59,620 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:36:59,621 [4] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:37:09,631 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:37:09,634 [4] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:37:19,635 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:37:19,638 [4] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:37:29,636 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:37:29,640 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:37:39,652 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:37:39,654 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:37:49,665 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:37:49,667 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:37:59,666 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:37:59,667 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:38:09,680 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:38:09,681 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:38:19,682 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:38:19,683 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:38:29,697 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:38:29,699 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:38:39,695 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:38:39,698 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:38:49,711 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:38:49,712 [4] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:38:59,712 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:38:59,713 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:39:09,725 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:39:09,728 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:39:19,741 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:39:19,743 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:39:29,747 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:39:29,748 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:39:39,755 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:39:39,758 [4] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:39:49,760 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:39:49,765 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:39:59,771 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:39:59,774 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:40:09,771 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:40:09,774 [4] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:40:19,786 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:40:19,789 [4] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:40:29,787 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:40:29,789 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:40:39,800 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:40:39,804 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:40:49,816 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:40:49,819 [4] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:40:59,818 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:40:59,822 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:41:09,834 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:41:09,837 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:41:19,835 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:41:19,838 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:41:29,849 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:41:29,851 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:41:39,850 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:41:39,852 [4] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:41:49,860 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:41:49,862 [5] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:41:59,879 [7] DEBUG ExitGames.Diagnostics.Monitoring.CounterSampleReceiver [(null)] - Received data from 192.168.0.2:65414.
+2016-01-22 20:41:59,881 [4] DEBUG ExitGames.Diagnostics.Rrd.RrdCounterDataWriter [(null)] - Processing data from 192.168.0.2 NAMAHA-PC
+2016-01-22 20:42:04,207 [5] INFO  Photon.Dashboard.PhontonDashboardService [(null)] - Service is stopping
+2016-01-22 20:42:04,225 [5] INFO  Photon.Dashboard.PhontonDashboardService [(null)] - Service stopped successfully.
+2016-01-22 20:57:37,684 [4] INFO  Photon.Dashboard.PhontonDashboardService [(null)] - Service is starting
+2016-01-22 20:57:47,331 [4] INFO  ExitGames.Counter.Service.Graphs.GraphTemplateFactory [(null)] - Initalizing graph templates from D:\Photon Server\deploy\bin_Tools\dashboard\GraphTemplates.xml
+2016-01-22 20:57:50,183 [4] INFO  Photon.Dashboard.PhontonDashboardService [(null)] - Created web server listening on 127.0.0.1:8088
+2016-01-22 20:57:50,183 [4] INFO  Photon.Dashboard.PhontonDashboardService [(null)] - Service started successfully.

@@ -1,0 +1,53 @@
+2016-01-22 20:16:47,649 [4] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Connecting to master server at 127.0.0.1:4530 ..
+2016-01-22 20:16:49,761 [4] WARN  Photon.LoadBalancing.TestClient.ConnectionStates.Master - Failed to connect to master.
+2016-01-22 20:16:49,906 [4] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Connecting to master server at 127.0.0.1:4530 ..
+2016-01-22 20:16:51,907 [4] WARN  Photon.LoadBalancing.TestClient.ConnectionStates.Master - Failed to connect to master.
+2016-01-22 20:16:51,953 [4] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Connecting to master server at 127.0.0.1:4530 ..
+2016-01-22 20:16:52,525 [3] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Successfully connected to master
+2016-01-22 20:16:52,850 [4] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Joining random game ...
+2016-01-22 20:16:53,412 [4] INFO  Photon.LoadBalancing.TestClient.Program - [10816] Started game NAMAHA-PC(10816)1 with 3 clients
+2016-01-22 20:16:53,421 [4] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Connecting to master server at 127.0.0.1:4530 ..
+2016-01-22 20:16:54,433 [3] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Successfully connected to master
+2016-01-22 20:16:54,437 [4] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Creating game: id=NAMAHA-PC(10816)2
+2016-01-22 20:16:54,535 [4] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Connecting to master server at 127.0.0.1:4530 ..
+2016-01-22 20:16:54,539 [3] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Successfully connected to master
+2016-01-22 20:16:54,540 [4] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Joining random game ...
+2016-01-22 20:16:54,771 [4] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Connecting to master server at 127.0.0.1:4530 ..
+2016-01-22 20:16:54,803 [3] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Successfully connected to master
+2016-01-22 20:16:54,803 [4] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Joining random game ...
+2016-01-22 20:16:55,074 [4] INFO  Photon.LoadBalancing.TestClient.Program - [10816] Started game NAMAHA-PC(10816)2 with 3 clients
+2016-01-22 20:16:55,074 [4] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Connecting to master server at 127.0.0.1:4530 ..
+2016-01-22 20:16:55,081 [3] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Successfully connected to master
+2016-01-22 20:16:55,081 [4] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Creating game: id=NAMAHA-PC(10816)3
+2016-01-22 20:16:55,232 [4] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Connecting to master server at 127.0.0.1:4530 ..
+2016-01-22 20:16:55,238 [3] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Successfully connected to master
+2016-01-22 20:16:55,239 [4] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Joining random game ...
+2016-01-22 20:16:55,471 [4] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Connecting to master server at 127.0.0.1:4530 ..
+2016-01-22 20:16:55,477 [3] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Successfully connected to master
+2016-01-22 20:16:55,477 [4] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Joining random game ...
+2016-01-22 20:16:55,553 [4] INFO  Photon.LoadBalancing.TestClient.Program - [10816] Started game NAMAHA-PC(10816)3 with 3 clients
+2016-01-22 20:16:55,553 [4] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Connecting to master server at 127.0.0.1:4530 ..
+2016-01-22 20:16:55,560 [3] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Successfully connected to master
+2016-01-22 20:16:55,560 [4] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Creating game: id=NAMAHA-PC(10816)4
+2016-01-22 20:16:55,783 [4] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Connecting to master server at 127.0.0.1:4530 ..
+2016-01-22 20:16:55,789 [3] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Successfully connected to master
+2016-01-22 20:16:55,790 [4] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Joining random game ...
+2016-01-22 20:16:56,033 [4] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Connecting to master server at 127.0.0.1:4530 ..
+2016-01-22 20:16:56,035 [3] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Successfully connected to master
+2016-01-22 20:16:56,035 [4] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Joining random game ...
+2016-01-22 20:16:56,066 [4] INFO  Photon.LoadBalancing.TestClient.Program - [10816] Started game NAMAHA-PC(10816)4 with 3 clients
+2016-01-22 20:16:56,066 [4] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Connecting to master server at 127.0.0.1:4530 ..
+2016-01-22 20:16:56,068 [3] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Successfully connected to master
+2016-01-22 20:16:56,068 [4] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Creating game: id=NAMAHA-PC(10816)5
+2016-01-22 20:16:56,130 [4] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Connecting to master server at 127.0.0.1:4530 ..
+2016-01-22 20:16:56,136 [3] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Successfully connected to master
+2016-01-22 20:16:56,137 [4] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Joining random game ...
+2016-01-22 20:16:56,416 [4] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Connecting to master server at 127.0.0.1:4530 ..
+2016-01-22 20:16:56,422 [3] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Successfully connected to master
+2016-01-22 20:16:56,422 [4] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Joining random game ...
+2016-01-22 20:16:56,623 [4] INFO  Photon.LoadBalancing.TestClient.Program - [10816] Started game NAMAHA-PC(10816)5 with 3 clients
+2016-01-22 20:17:05,651 [5] INFO  Photon.LoadBalancing.TestClient.Program - [10816] Shutdown: Stopped game NAMAHA-PC(10816)1
+2016-01-22 20:17:05,651 [5] INFO  Photon.LoadBalancing.TestClient.Program - [10816] Shutdown: Stopped game NAMAHA-PC(10816)2
+2016-01-22 20:17:05,652 [5] INFO  Photon.LoadBalancing.TestClient.Program - [10816] Shutdown: Stopped game NAMAHA-PC(10816)3
+2016-01-22 20:17:05,722 [5] INFO  Photon.LoadBalancing.TestClient.Program - [10816] Shutdown: Stopped game NAMAHA-PC(10816)4
+2016-01-22 20:17:05,723 [5] INFO  Photon.LoadBalancing.TestClient.Program - [10816] Shutdown: Stopped game NAMAHA-PC(10816)5
