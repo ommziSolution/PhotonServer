@@ -1,0 +1,12 @@
+11004: 18:30:12.885 - ---
+11004: 18:30:12.886 - Service: "Photon Socket Server" starting
+11004: 18:30:12.886 - Config File: D:\Photon Server\deploy\bin_Win64\PhotonServer.config
+11004: 18:30:12.920 - Will produce at most: 10 crash dumps
+11004: 18:30:12.921 - Service shutting down
+11004: 18:30:12.925 - Service shut down complete
+12896: 18:38:54.212 - ---
+12896: 18:38:54.212 - Service: "Photon Socket Server" starting
+12896: 18:38:54.212 - Config File: D:\Photon Server\deploy\bin_Win64\PhotonServer.config
+12896: 18:38:54.222 - Will produce at most: 10 crash dumps
+12896: 18:38:54.222 - Service shutting down
+12896: 18:38:54.234 - Service shut down complete
